@@ -1,0 +1,85 @@
+/* Define pastel colors */
+:root {
+  --pastel-blue: #a4cbeb;
+  --pastel-pink: #f7af9d;
+  --pastel-green: #bdecb6;
+  --pastel-purple: #d9b3e6;
+  --pastel-yellow: #fce694;
+}
+
+/* Apply pastel color palette */
+body {
+  background-color: var(--pastel-blue); /* Soft blue background */
+  color: #333; /* Dark gray text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the entire page */
+}
+
+.card {
+  margin-top: 50px;
+  border-radius: 20px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card-header {
+  background-color: var(--pastel-green); /* Soft green header */
+  color: #fff; /* White text color */
+  border-top-left-radius: 20px; /* Rounded corners for the top-left of the card header */
+  border-top-right-radius: 20px; /* Rounded corners for the top-right of the card header */
+  padding: 20px; /* Padding for the card header */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Style for form elements */
+.form-group {
+  margin-bottom: 20px; /* Spacing between form groups */
+}
+
+.form-control {
+  border: 2px solid var(--pastel-blue); /* Soft blue border */
+  border-radius: 10px; /* Rounded corners for form controls */
+  transition: border-color 0.3s; /* Smooth transition for border color change */
+}
+
+.form-control:focus {
+  outline: none; /* Remove focus outline */
+  border-color: var(--pastel-purple); /* Purple border color on focus */
+}
+
+.btn {
+  border-radius: 20px; /* Rounded corners for buttons */
+  transition: transform 0.3s; /* Smooth transition for button scale */
+}
+
+.btn-primary {
+  background-color: var(--pastel-purple); /* Soft purple primary button */
+  border-color: var(--pastel-purple);
+  color: #fff; /* White text color */
+}
+
+.btn-primary:hover {
+  background-color: #b088d6; /* Darker shade of purple on hover */
+  border-color: #b088d6;
+  transform: scale(1.05); /* Scale button on hover */
+}
+
+.btn-secondary {
+  background-color: var(--pastel-pink); /* Soft pink secondary button */
+  border-color: var(--pastel-pink);
+  color: #fff; /* White text color */
+}
+
+.btn-secondary:hover {
+  background-color: #f48fb1; /* Darker shade of pink on hover */
+  border-color: #f48fb1;
+  transform: scale(1.05); /* Scale button on hover */
+}
+
+/* Additional styling for cute elements */
+h4 {
+  margin-top: 0; /* Remove margin from the top of <h4> elements */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font for <h4> elements */
+  color: var(--pastel-purple); /* Soft purple color for <h4> elements */
+}
