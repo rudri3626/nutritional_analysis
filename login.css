@@ -1,0 +1,100 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fce4ec; /* Pastel Pink background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('./loginbg.jpeg'); /* Replace 'your-image-url.jpg' with your image URL */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: cover; /* Cover the entire background */
+  position: relative;  
+}
+
+.page-container {
+  text-align: center;
+}
+
+.page-heading {
+  color: rgb(236, 227, 227);
+  margin-bottom: 60px;
+}
+
+.container {
+  background-color: #FBD2D9;
+  padding: 30px; /* Increased padding */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin: 20px; /* Add margin to create space around the container */
+  width: 400px;
+  position: relative; /* Ensure the container stays above the overlay */
+  z-index: 1;
+}
+
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px; /* Increased margin */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Increased margin */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 93.5%;
+  padding: 12px; /* Increased padding */
+  border-radius: 6px; /* Slightly rounded corners */
+  border: 1px solid #ccc;
+  align-self: center;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff4081; /* Pastel Pink button */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f50057; /* Darker hover color */
+}
+
+/* Specific style for the signup button */
+
+
+.hidden {
+  display: none;
+}
+
+/* Add cursor pointer to clickable heading */
+h2#heading {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Underline the button text on hover */
+button#loginBtn:hover,
+button#signupBtn:hover {
+  text-decoration: underline;
+}
+
+/* Only show text cursor within input boxes */
+input[type="text"],
+input[type="password"],
+button#loginBtn,
+button#signupBtn {
+  cursor: text;
+}

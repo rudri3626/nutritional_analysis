@@ -1,0 +1,88 @@
+body {
+  font-family: Satisfy, sans-serif;
+  background-color: #fce4ec; /* Pastel Pink background */
+  margin: 0;
+  background-image: url('./Sailor\ City.jpeg'); /* Replace 'your-image-url.jpg' with your image URL */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: cover; /* Cover the entire background */
+  position: relative;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+/* header {
+  background-color: #fce4ec;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+} */
+
+.logo img {
+  padding: 10px;
+  border-radius: 100px; /* Make the image circular */
+}
+
+
+header h1{
+  text-align: center;
+}
+
+.logo {
+  margin-right: auto; /* Pushes the logo to the left */
+}
+
+.page-heading {
+  padding: 50px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 36px;
+  margin: 0;
+  color: #ff4081; /* Pastel Pink text color */
+}
+
+.login-link {
+  background-color: #ff4081; /* Pastel Pink button background */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.page-container {
+  text-align: center; /* Center-align content in the page container */
+}
+
+.quote {
+  color: #6e4beb; /* Pinkish shade text color */
+  font-family: Arial, sans-serif; /* Choose your preferred font family */
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-bottom: 15px; /* Add margin below each quote */
+}
+
+.login-link:hover {
+  background-color: #f50057; /* Darker hover color */
+}
+
+/* Position the login link at the top right corner */
+.login-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.image-container {
+  display: flex; /* Use flexbox to arrange images */
+  justify-content: space-between; /* Distribute images evenly across the container */
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.image-container img {
+  height: 230px; /* Set the height of all images */
+  object-fit: cover; /* Crop images to fit the specified height */
+  margin: 0 10px; /* Add margin between images for spacing */
+  border-radius: 40px;
+}
+

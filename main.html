@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Welcome to PurrfectHealth</h1>
+                        <h3 class="text-center">Let's get Healthy together :3</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="intakeForm">
+                            <div id="breakfastSection">
+                                <h4>Breakfast</h4>
+                                <div class="form-group">
+                                    <label for="breakfastFood1">Food Item</label>
+                                    <input type="text" class="form-control" id="breakfastFood1" name="breakfastFood1" placeholder="Enter food item" required>
+                                </div>
+                                <button type="button" class="btn btn-secondary" onclick="addFoodItem('breakfast')">Add Item</button>
+                                <button type="button" class="btn btn-primary" onclick="submitMeal('breakfast')">Submit</button>
+                            </div>
+                            <hr>
+                            <div id="morningSnackSection">
+                                <h4>Morning Snack</h4>
+                                <div class="form-group">
+                                    <label for="morningSnackFood1">Food Item</label>
+                                    <input type="text" class="form-control" id="morningSnackFood1" name="morningSnackFood1" placeholder="Enter food item" required>
+                                </div>
+                                <button type="button" class="btn btn-secondary" onclick="addFoodItem('morningSnack')">Add Item</button>
+                                <button type="button" class="btn btn-primary" onclick="submitMeal('morningSnack')">Submit</button>
+                            </div>
+                            <hr>
+                            <div id="lunchSection">
+                                <h4>Lunch</h4>
+                                <div class="form-group">
+                                    <label for="lunchFood1">Food Item</label>
+                                    <input type="text" class="form-control" id="lunchFood1" name="lunchFood1" placeholder="Enter food item" required>
+                                </div>
+                                <button type="button" class="btn btn-secondary" onclick="addFoodItem('lunch')">Add Item</button>
+                                <button type="button" class="btn btn-primary" onclick="submitMeal('lunch')">Submit</button>
+                            </div>
+                            <hr>
+                            <div id="eveningSnackSection">
+                                <h4>Evening Snack</h4>
+                                <div class="form-group">
+                                    <label for="eveningSnackFood1">Food Item</label>
+                                    <input type="text" class="form-control" id="eveningSnackFood1" name="eveningSnackFood1" placeholder="Enter food item" required>
+                                </div>
+                                <button type="button" class="btn btn-secondary" onclick="addFoodItem('eveningSnack')">Add Item</button>
+                                <button type="button" class="btn btn-primary" onclick="submitMeal('eveningSnack')">Submit</button>
+                            </div>
+                            <hr>
+                            <div id="dinnerSection">
+                                <h4>Dinner</h4>
+                                <div class="form-group">
+                                    <label for="dinnerFood1">Food Item</label>
+                                    <input type="text" class="form-control" id="dinnerFood1" name="dinnerFood1" placeholder="Enter food item" required>
+                                </div>
+                                <button type="button" class="btn btn-secondary" onclick="addFoodItem('dinner')">Add Item</button>
+                                <button type="button" class="btn btn-primary" onclick="submitMeal('dinner')">Submit</button>
+                            </div>
+                        <hr>
+                        <div id="totalCalories"></div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Provided to you by Rudri & Harshika
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
